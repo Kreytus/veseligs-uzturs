@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Veselīgs Uzturs</title>
+  <title>Veselīgs Dzīvesveids</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -11,13 +11,14 @@
   <!-- NAV -->
   <nav class="navbar">
     <div class="nav-container">
-      <a href="#" class="logo">🥗 Veselīgs Uzturs</a>
+      <a href="#" class="logo">🌿 Veselīgs Dzīvesveids</a>
       <ul class="nav-links">
-        <li><a href="#principi">Principi</a></li>
-        <li><a href="#piramida">Uztura piramīda</a></li>
-        <li><a href="#uztursvielas">Uzturvielas</a></li>
-        <li><a href="#receptes">Padomi</a></li>
-        <li><a href="#miti">Mīti</a></li>
+        <li><a href="#pilari">Pīlāri</a></li>
+        <li><a href="#uzturs">Uzturs</a></li>
+        <li><a href="#kustiba">Kustība</a></li>
+        <li><a href="#miegs">Miegs</a></li>
+        <li><a href="#gariga">Garīgā veselība</a></li>
+        <li><a href="#padomi">Padomi</a></li>
       </ul>
       <button class="nav-toggle" aria-label="Atvērt izvēlni">&#9776;</button>
     </div>
@@ -26,218 +27,335 @@
   <!-- HERO -->
   <header class="hero">
     <div class="hero-content">
-      <h1>Veselīgs Uzturs &mdash; Pamats Labai Dzīvei</h1>
-      <p>Uzzini, kā pareizs uzturs ietekmē tavu enerģiju, garastāvokli un ilgtermiņa veselību.</p>
-      <a href="#principi" class="btn-primary">Sākt lasīt</a>
+      <span class="hero-badge">Viss vienā vietā</span>
+      <h1>Veselīgs Dzīvesveids &mdash; Tava Labākā Investīcija</h1>
+      <p>Veselība nav tikai uzturs. Tā ir kustība, miegs, garīgā labklājība un labi ieradumi — viss kopā.</p>
+      <div class="hero-btns">
+        <a href="#pilari" class="btn-primary">Sākt ceļojumu</a>
+        <a href="#padomi" class="btn-outline">Praktiskie padomi</a>
+      </div>
     </div>
     <div class="hero-visual" aria-hidden="true">
-      <div class="food-grid">
-        <span>🍎</span><span>🥦</span><span>🐟</span>
-        <span>🫐</span><span>🥚</span><span>🥑</span>
-        <span>🌾</span><span>🥕</span><span>🍋</span>
+      <div class="lifestyle-wheel">
+        <div class="wheel-item w1"><span>🥗</span><small>Uzturs</small></div>
+        <div class="wheel-item w2"><span>🏃</span><small>Kustība</small></div>
+        <div class="wheel-item w3"><span>😴</span><small>Miegs</small></div>
+        <div class="wheel-item w4"><span>🧠</span><small>Prāts</small></div>
+        <div class="wheel-item w5"><span>🤝</span><small>Sociāli</small></div>
+        <div class="wheel-item w6"><span>🚭</span><small>Ieradumi</small></div>
+        <div class="wheel-center">❤️</div>
       </div>
     </div>
   </header>
 
   <main>
 
-    <!-- PRINCIPI -->
-    <section id="principi" class="section">
+    <!-- PĪLĀRI -->
+    <section id="pilari" class="section">
       <div class="container">
-        <h2 class="section-title">Veselīga Uztura Pamatprincipi</h2>
-        <div class="cards">
-          <div class="card">
-            <div class="card-icon">🌈</div>
-            <h3>Daudzveidība</h3>
-            <p>Ēd pēc iespējas daudzveidīgāk — dažādas krāsas uz šķīvja nozīmē dažādas uzturvielas.</p>
+        <h2 class="section-title">6 Veselīga Dzīvesveida Pīlāri</h2>
+        <p class="section-sub">Ilgtermiņa veselību veido nevis viena lieta, bet gan sešu jomu harmonija.</p>
+        <div class="pillar-grid">
+          <div class="pillar" style="--c:#40916c">
+            <div class="pillar-icon">🥗</div>
+            <h3>Uzturs</h3>
+            <p>Daudzveidīgs, sabalansēts uzturs ar dabīgiem produktiem sniedz enerģiju un būvmateriālus ķermenim.</p>
+            <a href="#uzturs" class="pillar-link">Uzzināt vairāk →</a>
           </div>
-          <div class="card">
-            <div class="card-icon">⚖️</div>
-            <h3>Līdzsvars</h3>
-            <p>Neviens ēdiens nav aizliegts. Svarīgi ir proporcijas — vairāk dabīgā, mazāk pārstrādātā.</p>
+          <div class="pillar" style="--c:#2196f3">
+            <div class="pillar-icon">🏃</div>
+            <h3>Fiziskā kustība</h3>
+            <p>150 min mērenas aktivitātes nedēļā samazina hronisku slimību risku, uzlabo garastāvokli un enerģiju.</p>
+            <a href="#kustiba" class="pillar-link">Uzzināt vairāk →</a>
           </div>
-          <div class="card">
-            <div class="card-icon">🕐</div>
-            <h3>Regularitāte</h3>
-            <p>Regulāras maltītes (3–5 dienā) notur cukura līmeni asinīs stabilu un novērš pārēšanos.</p>
+          <div class="pillar" style="--c:#7c3aed">
+            <div class="pillar-icon">😴</div>
+            <h3>Miegs</h3>
+            <p>7–9 stundas kvalitatīva miega ir pamats atmiņai, imunitātei un emocionālajai stabilitātei.</p>
+            <a href="#miegs" class="pillar-link">Uzzināt vairāk →</a>
           </div>
-          <div class="card">
-            <div class="card-icon">💧</div>
-            <h3>Hidratācija</h3>
-            <p>Pieaugušam cilvēkam vajadzīgi vismaz 1,5–2 litri ūdens dienā. Ūdens ir dzīvības pamats.</p>
+          <div class="pillar" style="--c:#f59e0b">
+            <div class="pillar-icon">🧠</div>
+            <h3>Garīgā veselība</h3>
+            <p>Stresa pārvaldīšana, meditācija un pateicība ir tikpat svarīga kā fiziskā veselība.</p>
+            <a href="#gariga" class="pillar-link">Uzzināt vairāk →</a>
           </div>
-          <div class="card">
-            <div class="card-icon">🌿</div>
-            <h3>Mazāk pārstrādāts</h3>
-            <p>Izvēlies veselu pārtiku — augļus, dārzeņus, pilngraudu produktus, pākšaugus.</p>
+          <div class="pillar" style="--c:#e11d48">
+            <div class="pillar-icon">🤝</div>
+            <h3>Sociālās saites</h3>
+            <p>Kvalitatīvas attiecības ar tuviniekiem palielina dzīves ilgumu un apmierinātību.</p>
           </div>
-          <div class="card">
-            <div class="card-icon">🧘</div>
-            <h3>Apzinīga ēšana</h3>
-            <p>Ēd lēni, bez traucēkļiem. Klausies ķermeņa signālus par izsalkumu un sāta sajūtu.</p>
+          <div class="pillar" style="--c:#0891b2">
+            <div class="pillar-icon">🚭</div>
+            <h3>Veselīgi ieradumi</h3>
+            <p>Smēķēšanas atmešana, alkohola ierobežošana un regulāras pārbaudes pie ārsta aizsargā veselību.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- PIRAMIDA -->
-    <section id="piramida" class="section section-alt">
+    <!-- STATS BANDA -->
+    <div class="stats-bar">
+      <div class="stat"><strong>150 min</strong><span>ieteicamā kustība nedēļā</span></div>
+      <div class="stat"><strong>7–9 h</strong><span>ieteicamais miega ilgums</span></div>
+      <div class="stat"><strong>5 porcijas</strong><span>augļu un dārzeņu dienā</span></div>
+      <div class="stat"><strong>2 l</strong><span>ūdens dienā</span></div>
+    </div>
+
+    <!-- UZTURS -->
+    <section id="uzturs" class="section">
       <div class="container">
-        <h2 class="section-title">Uztura Piramīda</h2>
-        <p class="section-sub">Latvijas Uztura ieteikumi balstīti uz Eiropas Pārtikas nekaitīguma iestādes rekomendācijām.</p>
-        <div class="pyramid-wrapper">
-          <div class="pyramid">
-            <div class="pyramid-row row-1">
-              <span>🍬 Saldumi &amp; ātrā ēdināšana — reti</span>
-            </div>
-            <div class="pyramid-row row-2">
-              <span>🥩 Gaļa &amp; zivis &bull; 🥛 Piena produkti — mēreni</span>
-            </div>
-            <div class="pyramid-row row-3">
-              <span>🥚 Olas &bull; 🫘 Pākšaugi &bull; 🥜 Rieksti &amp; sēklas</span>
-            </div>
-            <div class="pyramid-row row-4">
-              <span>🍎 Augļi &bull; 🥦 Dārzeņi — daudz</span>
-            </div>
-            <div class="pyramid-row row-5">
-              <span>🌾 Pilngraudu produkti &amp; kartupeļi — pamats</span>
-            </div>
-            <div class="pyramid-row row-6">
-              <span>💧 Ūdens — visu laiku</span>
+        <div class="split">
+          <div class="split-text">
+            <span class="tag green">Uzturs</span>
+            <h2>Ko Ēst Labas Veselības Labā</h2>
+            <p>Veselīgs uzturs nenozīmē stingras diētas vai atteikšanos no baudas. Svarīgi ir proporcijas un produktu kvalitāte.</p>
+            <ul class="check-list">
+              <li>🥦 Puse šķīvja — dārzeņi un augļi</li>
+              <li>🌾 Ceturtā daļa — pilngraudu produkti</li>
+              <li>🐟 Ceturtā daļa — olbaltumvielas (zivis, pākšaugi, olas)</li>
+              <li>🫒 Veselīgi tauki: olīveļļa, avokado, rieksti</li>
+              <li>💧 Ūdens kā galvenais dzēriens</li>
+              <li>🍬 Saldumi un pārstrādāta pārtika — reti</li>
+            </ul>
+          </div>
+          <div class="split-visual">
+            <div class="plate">
+              <div class="plate-ring">
+                <div class="plate-segment seg-veg">Dārzeņi<br/>50%</div>
+                <div class="plate-segment seg-grain">Graudi<br/>25%</div>
+                <div class="plate-segment seg-protein">Olbaltum.<br/>25%</div>
+              </div>
+              <div class="plate-label">Veselīgais šķīvis</div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- UZTURSVIELAS -->
-    <section id="uztursvielas" class="section">
+    <!-- KUSTIBA -->
+    <section id="kustiba" class="section section-alt">
       <div class="container">
-        <h2 class="section-title">Galvenās Uzturvielas</h2>
-        <div class="nutrients">
-          <div class="nutrient">
-            <div class="nutrient-header">
-              <span class="nutrient-icon">💪</span>
-              <h3>Olbaltumvielas</h3>
-              <span class="nutrient-pct">15–20%</span>
-            </div>
-            <p>Būtiskas muskuļu veidošanai, šūnu atjaunošanai un imunitātei.</p>
-            <div class="food-tags">
-              <span>Olas</span><span>Zivis</span><span>Pākšaugi</span><span>Gaļa</span><span>Tofu</span>
-            </div>
-          </div>
-          <div class="nutrient">
-            <div class="nutrient-header">
-              <span class="nutrient-icon">⚡</span>
-              <h3>Ogļhidrāti</h3>
-              <span class="nutrient-pct">45–60%</span>
-            </div>
-            <p>Galvenais enerģijas avots. Priekšroka pilngraudu un šķiedrvielām bagātiem produktiem.</p>
-            <div class="food-tags">
-              <span>Auzas</span><span>Pilngraudu maize</span><span>Quinoa</span><span>Augļi</span>
+        <span class="tag blue">Fiziskā kustība</span>
+        <h2 class="section-title">Kustība — Dabiskākās Zāles</h2>
+        <p class="section-sub">Regulāra fiziskā aktivitāte samazina sirds slimību risku par 35%, depresijas risku par 30% un pagarina dzīvi vidēji par 3–7 gadiem.</p>
+        <div class="activity-cards">
+          <div class="act-card">
+            <div class="act-icon">🚶</div>
+            <h3>Ikdienas soļi</h3>
+            <p>7 000–10 000 soļi dienā ir sasniedzams mērķis lielākajai daļai cilvēku. Iesākumā palielini par 1 000 soļiem nedēļā.</p>
+            <div class="intensity">
+              <span class="dot active"></span><span class="dot active"></span><span class="dot"></span><span class="dot"></span>
+              <small>Vidēja intensitāte</small>
             </div>
           </div>
-          <div class="nutrient">
-            <div class="nutrient-header">
-              <span class="nutrient-icon">🫒</span>
-              <h3>Tauki</h3>
-              <span class="nutrient-pct">25–35%</span>
-            </div>
-            <p>Nepiesātinātie tauki aizsargā sirdi un smadzenes. Izvairīties no trans-taukiem.</p>
-            <div class="food-tags">
-              <span>Avokado</span><span>Olīveļļa</span><span>Lasis</span><span>Rieksti</span>
+          <div class="act-card">
+            <div class="act-icon">💪</div>
+            <h3>Spēka treniņš</h3>
+            <p>2–3 reizes nedēļā spēka treniņš uzlabo kaulu blīvumu, paātrina vielmaiņu un veido muskuļus.</p>
+            <div class="intensity">
+              <span class="dot active"></span><span class="dot active"></span><span class="dot active"></span><span class="dot"></span>
+              <small>Augsta intensitāte</small>
             </div>
           </div>
-          <div class="nutrient">
-            <div class="nutrient-header">
-              <span class="nutrient-icon">🌱</span>
-              <h3>Šķiedrvielas</h3>
-              <span class="nutrient-pct">25–38 g/dienā</span>
+          <div class="act-card">
+            <div class="act-icon">🧘</div>
+            <h3>Joga un stiepšanās</h3>
+            <p>10–20 minūtes stiepšanās vai jogas uzlabo elastību, mazina muskuļu spriedzi un palīdz atpūsties.</p>
+            <div class="intensity">
+              <span class="dot active"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+              <small>Zema intensitāte</small>
             </div>
-            <p>Uzlabo gremošanu, samazina holesterīnu un uztur sāta sajūtu.</p>
-            <div class="food-tags">
-              <span>Lēcas</span><span>Brokoļi</span><span>Āboli</span><span>Pilngraudi</span>
+          </div>
+          <div class="act-card">
+            <div class="act-icon">🚴</div>
+            <h3>Kardio aktivitātes</h3>
+            <p>Peldēšana, riteņbraukšana vai skriešana 30 min, 5 reizes nedēļā nodrošina ieteicamo normu.</p>
+            <div class="intensity">
+              <span class="dot active"></span><span class="dot active"></span><span class="dot active"></span><span class="dot active"></span>
+              <small>Augsta intensitāte</small>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MIEGS -->
+    <section id="miegs" class="section">
+      <div class="container">
+        <div class="split reverse">
+          <div class="split-text">
+            <span class="tag purple">Miegs</span>
+            <h2>Miegs — Ķermeņa Lielākais Atjaunotājs</h2>
+            <p>Miega trūkums pasliktina atmiņu, vājina imunitāti, veicina svara pieaugumu un palielina sirds slimību risku. Miega kvalitāte ir tikpat svarīga kā ilgums.</p>
+            <div class="sleep-stages">
+              <div class="stage">
+                <div class="stage-bar" style="width:5%;background:#a5b4fc"></div>
+                <span>Aizmigšana (5%)</span>
+              </div>
+              <div class="stage">
+                <div class="stage-bar" style="width:50%;background:#818cf8"></div>
+                <span>Viegls miegs (50%)</span>
+              </div>
+              <div class="stage">
+                <div class="stage-bar" style="width:20%;background:#6366f1"></div>
+                <span>Dziļš miegs (20%)</span>
+              </div>
+              <div class="stage">
+                <div class="stage-bar" style="width:25%;background:#4338ca"></div>
+                <span>REM miegs (25%)</span>
+              </div>
+            </div>
+          </div>
+          <div class="split-visual">
+            <div class="sleep-tips-box">
+              <h3>🌙 Labāka miega padomi</h3>
+              <ol class="sleep-list">
+                <li>Celies un ej gulēt vienā laikā katru dienu</li>
+                <li>Gulētājam jābūt vēsam (18–20°C)</li>
+                <li>Izvairīties no ekrāniem 1 h pirms gulētiešanas</li>
+                <li>Nekad nedzer kafiju pēc plkst. 14:00</li>
+                <li>Tumsa un klusums — miega labākie draugi</li>
+                <li>Pieiet pie miega kā pie svarīgas tikšanās</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GARĪGĀ VESELĪBA -->
+    <section id="gariga" class="section section-alt">
+      <div class="container">
+        <span class="tag amber">Garīgā veselība</span>
+        <h2 class="section-title">Prāts un Emocijas — Tikpat Svarīgi</h2>
+        <p class="section-sub">Hronisks stress ir saistīts ar 75–90% ārsta apmeklējumu. Garīgā veselības aprūpe nav greznība — tā ir nepieciešamība.</p>
+        <div class="mental-grid">
+          <div class="mental-card">
+            <div class="mental-icon">🧘‍♀️</div>
+            <h3>Meditācija</h3>
+            <p>Pat 10 minūtes dienā apzinātības meditācijas samazina stresa hormona kortizola līmeni un uzlabo koncentrēšanos.</p>
+          </div>
+          <div class="mental-card">
+            <div class="mental-icon">📓</div>
+            <h3>Žurnāls</h3>
+            <p>Emociju un domu pierakstīšana palīdz apstrādāt pieredzi, samazina trauksmi un veicina pašizpratni.</p>
+          </div>
+          <div class="mental-card">
+            <div class="mental-icon">🌳</div>
+            <h3>Laiks dabā</h3>
+            <p>20 minūtes dabā dienā samazina stresa hormonu līmeni. Meži un zaļie laukumi darbojas kā dabisks antidepresants.</p>
+          </div>
+          <div class="mental-card">
+            <div class="mental-icon">🙏</div>
+            <h3>Pateicība</h3>
+            <p>Katru vakaru pieraksti 3 lietas, par kurām esi pateicīgs. Šī prakse pārvirza smadzeņu uzmanību no negatīvā uz pozitīvo.</p>
+          </div>
+          <div class="mental-card">
+            <div class="mental-icon">📵</div>
+            <h3>Digitālā detoksa</h3>
+            <p>Ierobežo sociālos medijus līdz 30–60 minūtēm dienā. Neapzināta ritināšana palielina trauksmi un samazina pašvērtējumu.</p>
+          </div>
+          <div class="mental-card">
+            <div class="mental-icon">💬</div>
+            <h3>Runāt ar kādu</h3>
+            <p>Tuvinieki, draugi vai speciālists — nav kauna lūgt palīdzību. Runāšana ir viena no efektīvākajām stresa mazināšanas metodēm.</p>
           </div>
         </div>
       </div>
     </section>
 
     <!-- PADOMI -->
-    <section id="receptes" class="section section-alt">
+    <section id="padomi" class="section">
       <div class="container">
-        <h2 class="section-title">Praktiski Padomi Katrai Dienai</h2>
-        <div class="tips">
-          <div class="tip">
-            <div class="tip-num">01</div>
-            <div class="tip-text">
-              <h3>Puslodzu metode</h3>
-              <p>Pusi šķīvja aizpildi ar dārzeņiem, ceturto daļu ar pilngraudu produktiem un ceturto daļu ar olbaltumvielām.</p>
+        <h2 class="section-title">Dienišķā Rutīna — Mazas Darbības, Lieli Rezultāti</h2>
+        <p class="section-sub">Veselīgs dzīvesveids veidojas no ikdienas paradumiem, nevis īslaicīgiem mēģinājumiem.</p>
+        <div class="routine">
+          <div class="routine-col">
+            <h3 class="routine-title">🌅 Rīts</h3>
+            <div class="routine-item">
+              <span class="routine-time">6:30</span>
+              <div>
+                <strong>Celies vienā laikā</strong>
+                <p>Regulārs celšanās laiks sinhronizē bioloģisko pulksteni.</p>
+              </div>
+            </div>
+            <div class="routine-item">
+              <span class="routine-time">6:35</span>
+              <div>
+                <strong>Glāze ūdens</strong>
+                <p>Pēc miega organisms ir dehidrēts — uzpildi ūdens rezerves.</p>
+              </div>
+            </div>
+            <div class="routine-item">
+              <span class="routine-time">6:45</span>
+              <div>
+                <strong>Kustība 15–20 min</strong>
+                <p>Stiepšanās, pastaigas vai treniņš aktivizē ķermeni un prātu.</p>
+              </div>
+            </div>
+            <div class="routine-item">
+              <span class="routine-time">7:10</span>
+              <div>
+                <strong>Veselīgas brokastis</strong>
+                <p>Olbaltumvielas + šķiedrvielas = ilgstoša enerģija.</p>
+              </div>
             </div>
           </div>
-          <div class="tip">
-            <div class="tip-num">02</div>
-            <div class="tip-text">
-              <h3>Plāno maltītes iepriekš</h3>
-              <p>Nedēļas ēdienkartes plānošana ietaupa laiku, naudu un palīdz izvairīties no neveselīgām izvēlēm steigas brīžos.</p>
+          <div class="routine-col">
+            <h3 class="routine-title">☀️ Diena</h3>
+            <div class="routine-item">
+              <span class="routine-time">12:00</span>
+              <div>
+                <strong>Pilnvērtīgas pusdienas</strong>
+                <p>Lielākā maltīte pusdienas laikā — metabolisms ir augstākajā punktā.</p>
+              </div>
+            </div>
+            <div class="routine-item">
+              <span class="routine-time">13:00</span>
+              <div>
+                <strong>Īsa pastaiga</strong>
+                <p>10 min pastaiga pēc ēšanas uzlabo cukura līmeni asinīs.</p>
+              </div>
+            </div>
+            <div class="routine-item">
+              <span class="routine-time">15:30</span>
+              <div>
+                <strong>Veselīga uzkoda</strong>
+                <p>Rieksti, augļi vai jogurts uztur enerģiju līdz vakariņām.</p>
+              </div>
             </div>
           </div>
-          <div class="tip">
-            <div class="tip-num">03</div>
-            <div class="tip-text">
-              <h3>Lasi sastāvdaļu sarakstus</h3>
-              <p>Jo īsāks sastāvdaļu saraksts, jo dabīgāks produkts. Izvairīties no pievienotā cukura pirmajās 3 vietās.</p>
+          <div class="routine-col">
+            <h3 class="routine-title">🌙 Vakars</h3>
+            <div class="routine-item">
+              <span class="routine-time">18:00</span>
+              <div>
+                <strong>Vieglas vakariņas</strong>
+                <p>Mazāk ogļhidrātu, vairāk proteīna un dārzeņu vakarā.</p>
+              </div>
             </div>
-          </div>
-          <div class="tip">
-            <div class="tip-num">04</div>
-            <div class="tip-text">
-              <h3>Gatavo mājās</h3>
-              <p>Mājas gatavošana ļauj kontrolēt tauku, sāls un cukura daudzumu. Pat vienkāršas receptes ir veselīgākas par pusfabrikātiem.</p>
+            <div class="routine-item">
+              <span class="routine-time">20:30</span>
+              <div>
+                <strong>Ekrāni projām</strong>
+                <p>Zila gaisma kavē melatonīna ražošanu. Lasi grāmatu vai meditē.</p>
+              </div>
             </div>
-          </div>
-          <div class="tip">
-            <div class="tip-num">05</div>
-            <div class="tip-text">
-              <h3>Uzkodas gudri</h3>
-              <p>Veselīgas uzkodas: jogurts ar ogām, ābols ar riekstu sviestu, burkāni ar hummusu vai sauja jauktu riekstu.</p>
+            <div class="routine-item">
+              <span class="routine-time">21:00</span>
+              <div>
+                <strong>Pateicības žurnāls</strong>
+                <p>3 lietas, par kurām esi pateicīgs — noslēdz dienu pozitīvi.</p>
+              </div>
             </div>
-          </div>
-          <div class="tip">
-            <div class="tip-num">06</div>
-            <div class="tip-text">
-              <h3>Neizlaid brokastis</h3>
-              <p>Brokastu izlaišana pasliktina koncentrēšanos un palielina pārēšanās risku vakariņās. Izvēlies olbaltumvielām bagātas brokastis.</p>
+            <div class="routine-item">
+              <span class="routine-time">22:00</span>
+              <div>
+                <strong>Gulēt</strong>
+                <p>7–9 h miegs ir neatņemama veselīga dzīvesveida daļa.</p>
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- MITI -->
-    <section id="miti" class="section">
-      <div class="container">
-        <h2 class="section-title">Izplatītākie Mīti par Uzturu</h2>
-        <div class="myths">
-          <div class="myth">
-            <div class="myth-label false">Mīts</div>
-            <h3>Ogļhidrāti padara resnu</h3>
-            <p>Patiesība: ogļhidrāti paši par sevi nav problēma. Svarīgs ir to veids (izvēlies pilngraudu) un daudzums. Kaloriju pārpalikums no jebkura avota var veicināt svara pieaugumu.</p>
-          </div>
-          <div class="myth">
-            <div class="myth-label false">Mīts</div>
-            <h3>Tauki ir kaitīgi</h3>
-            <p>Patiesība: organisma darbībai nepieciešami veselīgi tauki — omega-3, mononepiesātinātie tauki. Kaitīgi ir trans-tauki un pārmērīgi piesātinātie tauki.</p>
-          </div>
-          <div class="myth">
-            <div class="myth-label false">Mīts</div>
-            <h3>Detoksa diētas attīra organismu</h3>
-            <p>Patiesība: aknas un nieres detoksicē organismu nepārtraukti. Nav zinātniskā pamatojuma, ka īpaši detoksa produkti paātrina šo procesu.</p>
-          </div>
-          <div class="myth">
-            <div class="myth-label false">Mīts</div>
-            <h3>Bio produkti vienmēr ir veselīgāki</h3>
-            <p>Patiesība: bio audzēšana samazina pesticīdu ietekmi, taču uzturvielu saturs bieži vien neatšķiras. Svarīgāk ir ēst daudz dārzeņu un augļu — bio vai ne.</p>
           </div>
         </div>
       </div>
@@ -246,9 +364,9 @@
     <!-- CTA -->
     <section class="cta-section">
       <div class="container">
-        <h2>Sāc šodien — nevis pirmdien!</h2>
-        <p>Katrs mazs solis veselīgāka uztura virzienā ir vērtīgs. Nav vajadzīga pilnīga revolūcija — sāc ar vienu izmaiņu nedēļā.</p>
-        <a href="#principi" class="btn-primary">Atkārtot principus</a>
+        <h2>Viens solis šodien. Vēl viens rīt.</h2>
+        <p>Veselīgs dzīvesveids nav gala mērķis — tā ir pastāvīga izvēle. Sāc ar vienu izmaiņu un turpini.</p>
+        <a href="#pilari" class="btn-primary">Atkārtot pīlārus</a>
       </div>
     </section>
 
@@ -256,10 +374,18 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    <div class="container">
-      <p>Informācija sniegta izglītojošiem nolūkiem. Konsultējies ar ārstu vai uztura speciālistu individuālu ieteikumu saņemšanai.</p>
-      <p class="footer-copy">&copy; 2026 Veselīgs Uzturs</p>
+    <div class="footer-container">
+      <div class="footer-brand">🌿 Veselīgs Dzīvesveids</div>
+      <div class="footer-links">
+        <a href="#pilari">Pīlāri</a>
+        <a href="#uzturs">Uzturs</a>
+        <a href="#kustiba">Kustība</a>
+        <a href="#miegs">Miegs</a>
+        <a href="#gariga">Garīgā veselība</a>
+      </div>
     </div>
+    <p class="footer-note">Informācija sniegta izglītojošiem nolūkiem. Konsultējies ar ārstu individuālu ieteikumu saņemšanai.</p>
+    <p class="footer-copy">&copy; 2026 Veselīgs Dzīvesveids</p>
   </footer>
 
   <script src="main.js"></script>
